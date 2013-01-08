@@ -12,13 +12,13 @@
       },
       {  
          "comment" : "classes",
-         "match" : "(?i)\\b(?:FROM|TO|OF|NAME|SIZE|TITLE)\\b",
+         "match" : "(?i)\\b(?:CENTER|CENTERED|NOWAIT|NOMODAL|WHEN|VALID|CURSOR|FROM|TO|OF|ON|ID|NAME|RESNAME|RESOURCE|PICTURE|TRANSPARENT|ADJUST|SIZE|TITLE|STYLE|FONT|ICON|BRUSH|HELP|COLOR|COLORS|PIXEL|DLL|LIBRARY|VBX)\\b",
          "name": "support.class.fivewin"
       },
             {  
          "comment" : "operators",
-         "match" : "\\b(@)\\b",
-         "name": "support.constant.other.fivewin" 
+         "match" : "(?i)\\b(?:CLICK|INIT|MOVE|PAINT|HELP)\\b",
+         "name": "constant.language.fivewin" 
       },
       {  
          "comment" : "winapi",

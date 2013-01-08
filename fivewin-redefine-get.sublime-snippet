@@ -1,0 +1,15 @@
+<snippet>
+	<description>REDEFINE GET</description>
+    <content><![CDATA[REDEFINE GET ${1:oGet} VAR ${2:uVar} ID ${3:nId} OF ${4:oContainer} ;
+		HELP ${5:nHelpId} ;
+		COLOR ${6:nClrFore}, ${7:nClrBack} ;
+		FONT ${8:oFont} ;
+		CURSOR ${9:oCursor} ;
+		MESSAGE ${10:cMsg} ;
+		WHEN ${11:uWhen} ;
+		VALID ${12:uValid} ;
+		ON CHANGE ${13:uRClicked} ]]></content>
+    <tabTrigger>rget</tabTrigger>
+    <scope>source.harbour</scope>
+</snippet>
+

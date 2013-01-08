@@ -1,7 +1,16 @@
 <snippet>
 	<description>DEFINE DIALOG</description>
-    <content><![CDATA[DEFINE DIALOG ${1:oDlg} NAME ${2:cResName} TITLE ${3:nTop} FROM ${4:nTop}, ${5:nLeft} TO ${6:nBottom}, ${7:nRight} SIZE ${8:nWidth}, ${9:nHeight}
-ACTIVATE DIALOG ${1:oDlg}]]></content>
+    <content><![CDATA[DEFINE DIALOG ${1:oDlg} NAME ${2:cResName} TITLE ${3:cTitle} FROM ${4:nTop}, ${5:nLeft} TO ${6:nBottom}, ${7:nRight} SIZE ${8:nWidth}, ${9:nHeight}
+
+ACTIVATE DIALOG ${1:oDlg}
+		CENTER NOMODAL ;
+		WHEN ${12:uWhen} ;
+		VALID ${13:uValid} ;
+		ON LEFT CLICK ${14:uClick} ;
+		ON INIT ${15:uInit} ;
+		ON MOVE ${16:uMoved} ;
+		ON PAINT ${17:uPaint} ;
+		ON RIGHT CLICK ${18:uRClicked} ]]></content>
     <tabTrigger>ddia</tabTrigger>
     <scope>source.harbour</scope>
 </snippet>
