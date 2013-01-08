@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>prg</string>
+	</array>
+	<key>name</key>
+	<string>fivewin</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>source.harbour</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>commands</string>
+			<key>match</key>
+			<string>(?i)\b(?:DEFINE|REDEFINE|ACTIVATE)\b</string>
+			<key>name</key>
+			<string>support.constant.character.fivewin</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>classes</string>
+			<key>match</key>
+			<string>(?i)\b(?:FROM|TO|OF|NAME|SIZE|TITLE)\b</string>
+			<key>name</key>
+			<string>support.class.fivewin</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>operators</string>
+			<key>match</key>
+			<string>\b(@)\b</string>
+			<key>name</key>
+			<string>support.constant.other.fivewin</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>winapi</string>
+			<key>match</key>
+			<string>(?i)\b(?:WINDOW|DIALOG|GET|SAY|COMBOBOX|RADIOBUTTON|CHECKBUTTON|BROWSE)\b</string>
+			<key>name</key>
+			<string>entity.name.function.fivewin</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.harbour.fivewin</string>
+	<key>uuid</key>
+	<string>16d1170f-bc20-4d97-86ae-736bdf25ac48</string>
+</dict>
+</plist>

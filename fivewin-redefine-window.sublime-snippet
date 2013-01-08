@@ -1,0 +1,6 @@
+<snippet>
+	<description>REDEFINE WINDOW</description>
+    <content><![CDATA[REDEFINE WINDOW ${1:oWnd} FROM ${2:coor1}, ${3:coor2} TO ${4:coor1}, ${5:coor1} ]]></content>
+    <tabTrigger>rwin</tabTrigger>
+    <scope>source.harbour</scope>
+</snippet>

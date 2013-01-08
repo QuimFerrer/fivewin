@@ -1,0 +1,31 @@
+{ "name": "fivewin",
+  "scopeName": "source.harbour.fivewin",
+  "fileTypes": ["prg"],
+  "patterns": [
+      {  
+         "include" : "source.harbour"
+      },
+      {  
+         "comment" : "commands",
+         "match" : "(?i)\\b(?:DEFINE|REDEFINE|ACTIVATE)\\b",
+         "name": "support.constant.character.fivewin"
+      },
+      {  
+         "comment" : "classes",
+         "match" : "(?i)\\b(?:FROM|TO|OF|NAME|SIZE|TITLE)\\b",
+         "name": "support.class.fivewin"
+      },
+            {  
+         "comment" : "operators",
+         "match" : "\\b(@)\\b",
+         "name": "support.constant.other.fivewin" 
+      },
+      {  
+         "comment" : "winapi",
+         "match" : "(?i)\\b(?:WINDOW|DIALOG|GET|SAY|COMBOBOX|RADIOBUTTON|CHECKBUTTON|BROWSE)\\b",
+         "name": "entity.name.function.fivewin"
+      }
+  ],
+  "uuid": "16d1170f-bc20-4d97-86ae-736bdf25ac48"
+}
+

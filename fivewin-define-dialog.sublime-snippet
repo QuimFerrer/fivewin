@@ -1,0 +1,7 @@
+<snippet>
+	<description>DEFINE DIALOG</description>
+    <content><![CDATA[DEFINE DIALOG ${1:oDlg} NAME ${2:cResName} TITLE ${3:nTop} FROM ${4:nTop}, ${5:nLeft} TO ${6:nBottom}, ${7:nRight} SIZE ${8:nWidth}, ${9:nHeight}
+ACTIVATE DIALOG ${1:oDlg}]]></content>
+    <tabTrigger>ddia</tabTrigger>
+    <scope>source.harbour</scope>
+</snippet>

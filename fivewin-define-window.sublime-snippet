@@ -1,0 +1,6 @@
+<snippet>
+	<description>DEFINE WINDOW</description>
+    <content><![CDATA[DEFINE WINDOW ${1:oWnd} FROM ${2:coor1}, ${3:coor2} TO ${4:coor1}, ${5:coor1} ]]></content>
+    <tabTrigger>dwin</tabTrigger>
+    <scope>source.harbour</scope>
+</snippet>
