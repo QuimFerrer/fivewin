@@ -24,9 +24,9 @@
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>classes</string>
+			<string>class</string>
 			<key>match</key>
-			<string>(?i)\b(?:CENTER|CENTERED|NOWAIT|NOMODAL|WHEN|VALID|CURSOR|FROM|TO|OF|ON|ID|NAME|RESNAME|RESOURCE|PICTURE|TRANSPARENT|ADJUST|SIZE|TITLE|STYLE|FONT|ICON|BRUSH|HELP|COLOR|COLORS|PIXEL|DLL|LIBRARY|VBX)\b</string>
+			<string>(?i)\b(?:CENTER|CENTERED|NOWAIT|NOMODAL|WHEN|VALID|CURSOR|FROM|TO|OF|ON|ID|NAME|RESNAME|RESOURCE|PICTURE|TRANSPARENT|ADJUST|SIZE|TITLE|STYLE|FONT|ICON|BRUSH|MENU|HELP|COLOR|COLORS|PIXEL|DLL|LIBRARY|VBX)\b</string>
 			<key>name</key>
 			<string>support.class.fivewin</string>
 		</dict>
@@ -34,15 +34,15 @@
 			<key>comment</key>
 			<string>operators</string>
 			<key>match</key>
-			<string>(?i)\b(?:CLICK|INIT|MOVE|PAINT|HELP)\b</string>
+			<string>(?i)\b(?:CLICK|INIT|CHANGE|MOVE|PAINT|LBUTTONUP|RESIZE|KEYDOWN|UP|PAGELEFT|PAGERIGHT|DROPFILES)\b</string>
 			<key>name</key>
 			<string>constant.language.fivewin</string>
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>winapi</string>
+			<string>fwapi</string>
 			<key>match</key>
-			<string>(?i)\b(?:WINDOW|DIALOG|GET|SAY|COMBOBOX|RADIOBUTTON|CHECKBUTTON|BROWSE)\b</string>
+			<string>(?i)\b(?:WINDOW|DIALOG|GET|SAY|BAR|COMBOBOX|RADIO|RADIOBUTTON|CHECKBUTTON|BROWSE|IMAGE|BITMAP|PEN|REPORT|FOLDER|GROUPBOX|BUTTON|BUTTONBMP|LISTBOX|SCROLLBAR|METER|METEREX|METAFILE|TREE|TREEVIEW|TIMER|MSGITEM|IMAGELIST|TOOLBAR)\b</string>
 			<key>name</key>
 			<string>entity.name.function.fivewin</string>
 		</dict>

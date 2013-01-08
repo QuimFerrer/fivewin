@@ -11,18 +11,18 @@
          "name": "support.constant.character.fivewin"
       },
       {  
-         "comment" : "classes",
-         "match" : "(?i)\\b(?:CENTER|CENTERED|NOWAIT|NOMODAL|WHEN|VALID|CURSOR|FROM|TO|OF|ON|ID|NAME|RESNAME|RESOURCE|PICTURE|TRANSPARENT|ADJUST|SIZE|TITLE|STYLE|FONT|ICON|BRUSH|HELP|COLOR|COLORS|PIXEL|DLL|LIBRARY|VBX)\\b",
+         "comment" : "class",
+         "match" : "(?i)\\b(?:CENTER|CENTERED|NOWAIT|NOMODAL|WHEN|VALID|CURSOR|FROM|TO|OF|ON|ID|NAME|RESNAME|RESOURCE|PICTURE|TRANSPARENT|ADJUST|SIZE|TITLE|STYLE|FONT|ICON|BRUSH|MENU|HELP|COLOR|COLORS|PIXEL|DLL|LIBRARY|VBX)\\b",
          "name": "support.class.fivewin"
       },
             {  
          "comment" : "operators",
-         "match" : "(?i)\\b(?:CLICK|INIT|MOVE|PAINT|HELP)\\b",
+         "match" : "(?i)\\b(?:CLICK|INIT|CHANGE|MOVE|PAINT|LBUTTONUP|RESIZE|KEYDOWN|UP|PAGELEFT|PAGERIGHT|DROPFILES)\\b",
          "name": "constant.language.fivewin" 
       },
       {  
-         "comment" : "winapi",
-         "match" : "(?i)\\b(?:WINDOW|DIALOG|GET|SAY|COMBOBOX|RADIOBUTTON|CHECKBUTTON|BROWSE)\\b",
+         "comment" : "fwapi",
+         "match" : "(?i)\\b(?:WINDOW|DIALOG|GET|SAY|BAR|COMBOBOX|RADIO|RADIOBUTTON|CHECKBUTTON|BROWSE|IMAGE|BITMAP|PEN|REPORT|FOLDER|GROUPBOX|BUTTON|BUTTONBMP|LISTBOX|SCROLLBAR|METER|METEREX|METAFILE|TREE|TREEVIEW|TIMER|MSGITEM|IMAGELIST|TOOLBAR)\\b",
          "name": "entity.name.function.fivewin"
       }
   ],
