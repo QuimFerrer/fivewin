@@ -1,6 +1,6 @@
 <snippet>
 	<description>REDEFINE SAY</description>
-    <content><![CDATA[REDEFINE SAY ${1:oSay} VAR ${2:cText} PICTURE ${3:cPict} ID ${3:nId} OF ${4:oContainer} ;
+    <content><![CDATA[REDEFINE SAY ${1:oSay} VAR ${2:cText} PICTURE ${3:cPict} ID ${4:nId} OF ${5:oContainer} ;
 		COLOR ${6:nClrFore}, ${7:nClrBack} ;
 		TRANSPARENT ADJUST ]]></content>
     <tabTrigger>rsay</tabTrigger>

@@ -6,23 +6,28 @@
          "include" : "source.harbour"
       },
       {  
+         "comment" : "funciones m",
+         "match" : "(?i)\\b(?:msginfo|msgabout|msgstop|msglist|msgnoyes|msgyesno|msgmetter)",
+         "name": "support.function.basic.harbour" 
+      },
+      {  
          "comment" : "commands",
          "match" : "(?i)\\b(?:DEFINE|REDEFINE|ACTIVATE)\\b",
          "name": "support.constant.character.fivewin"
       },
       {  
          "comment" : "class",
-         "match" : "(?i)\\b(?:CENTER|CENTERED|NOWAIT|NOMODAL|WHEN|VALID|CURSOR|FROM|TO|OF|ON|ID|NAME|RESNAME|RESOURCE|PICTURE|TRANSPARENT|ADJUST|SIZE|TITLE|STYLE|FONT|ICON|BRUSH|MENU|HELP|COLOR|COLORS|PIXEL|DLL|LIBRARY|VBX)\\b",
+         "match" : "(?i)\\b(?:CENTER|CENTERED|NOWAIT|NOMODAL|WHEN|VALID|CURSOR|FROM|TO|OF|ON|ID|NAME|RESNAME|RESOURCE|PICTURE|TRANSPARENT|ADJUST|SIZE|TITLE|DATA|TOTAL|GRID|FOOTER|BOLD|STYLE|FONT|ICON|BRUSH|MENU|HELP|COLOR|COLORS|PIXEL|DLL|LIBRARY|VBX)\\b",
          "name": "support.class.fivewin"
       },
             {  
          "comment" : "operators",
-         "match" : "(?i)\\b(?:CLICK|INIT|CHANGE|MOVE|PAINT|LBUTTONUP|RESIZE|KEYDOWN|UP|PAGELEFT|PAGERIGHT|DROPFILES)\\b",
+         "match" : "(?i)\\b(?:CLICK|INIT|CHANGE|MOVE|PAINT|LBUTTONUP|RESIZE|KEYDOWN|UP|PAGELEFT|PAGERIGHT|DROPFILES|STARTGROUP)\\b",
          "name": "constant.language.fivewin" 
       },
       {  
          "comment" : "fwapi",
-         "match" : "(?i)\\b(?:WINDOW|DIALOG|GET|SAY|BAR|COMBOBOX|RADIO|RADIOBUTTON|CHECKBUTTON|BROWSE|IMAGE|BITMAP|PEN|REPORT|FOLDER|GROUPBOX|BUTTON|BUTTONBMP|LISTBOX|SCROLLBAR|METER|METEREX|METAFILE|TREE|TREEVIEW|TIMER|MSGITEM|IMAGELIST|TOOLBAR)\\b",
+         "match" : "(?i)\\b(?:WINDOW|DIALOG|GET|SAY|BAR|COMBOBOX|RADIO|RADIOBUTTON|CHECKBUTTON|BROWSE|IMAGE|BITMAP|PEN|REPORT|COLUMN|GROUP|FOLDER|GROUPBOX|BUTTON|BUTTONBMP|LISTBOX|SCROLLBAR|METER|METEREX|METAFILE|TREE|TREEVIEW|TIMER|MSGITEM|IMAGELIST|TOOLBAR)\\b",
          "name": "entity.name.function.fivewin"
       }
   ],
